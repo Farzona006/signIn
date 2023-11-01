@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(234, 234, 234);  
+    margin: 0px;  
+    padding: 0;
+    text-align: center;
+}
+body p{
+    font-size: 20px;
+}
+.container{
+    background-image: url(https://media.istockphoto.com/id/1298168948/photo/blooming-tree-in-spring-in-hyde-park-london-uk.jpg?s=1024x1024&w=is&k=20&c=TjiItqCqs-BB-6yqmBT7NIEs6DLmCCpfjAboUb1g_Hs=);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 550px;
+    margin: 0px auto;
+    }
+.row{
+    display: flex;
+    flex-flow: row;
+    background-color: #00000085;
+    height: 550px;
+    transition:display 3s;
+}
+.row .content1{
+    width: 40%;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+.row1 .content1{
+    width: 40%;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+.content1 div{
+    margin:  250px auto;
+}
+
+.content2 div{
+    padding-top: 10%;
+}
+button{
+    margin-top: 10px;
+    text-align: center;
+    padding-top: -20px;
+}
+.signIn{ 
+    border: 2px solid ;
+    border-radius: 16px;
+    margin:0px;
+    margin-top: -10px;
+    padding: 0px ;  
+    height: 20px;
+    color: white;
+    width: 100px;  
+}
+.signIn p{
+    margin-top:0px ;
+}
+.row .content2,.row1 .content2{
+    width: 60%;
+    background-color: rgb(252, 252, 252);
+    
+}
+.content2 input{
+    border: none;
+    border-bottom: 2px solid #6b6b6b99 ;
+    background-color: inherit;
+    padding: 10px auto;
+    text-align: center;
+}
+.button2{
+    background-color: rgb(252, 137, 36);
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 16px;
+    width: 200px;
+    padding-top: -20px;
+}
+.button3{
+    background-color:inherit;
+    color: #878686;
+    border: 1px solid #b3b3b3;
+    border-radius: 16px;
+    width: 200px;
+    padding-top:0px;
+}
+.button2 p, .button3 p{
+ margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: #222222;
+}
+.row1{
+    display: flex;
+    background-color: #00000085;
+    height: 550px;
+    transition: display 3s;
+    flex-flow:row-reverse ;
+}
+.signIn:hover{
+    border-color: #b7b7b7 ;
+    transition: .2s;
+    color: #b7b7b7  ;
+}
